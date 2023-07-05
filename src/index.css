@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+@font-face {
+  font-family: 'söhne';
+  src: url('./fonts/test-soehne-buch.woff2') format('truetype');
+  /* Add other font formats and styles as needed */
+}
+body {
+  margin: 0;
+  font-family:  'söhne';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
